@@ -4,6 +4,18 @@ html {
   height: 100vh;
 }
 
+body::-webkit-scrollbar{
+  width: .25rem;
+}
+
+body::-webkit-scrollbar-thumb{
+  background: white;
+}
+
+body::-webkit-scrollbar-track{
+  background: none;
+}
+
 body {
   background: #000;
   height: 400vh;
